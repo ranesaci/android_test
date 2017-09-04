@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/navfragone"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Frag One" />
+        <item
+            android:id="@+id/navfragtwo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Frag Two" />
+
+        <item
+            android:id="@+id/navfragdeclaringvar"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Declaring Variables" />
+
+</menu>

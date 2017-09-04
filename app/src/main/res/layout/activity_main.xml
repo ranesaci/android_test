@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lenovok5_wallpaper"
+    tools:context="sac4java.android_buttonclick.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="88dp"
+        android:text="@string/string_value1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="141dp"
+        android:layout_height="75dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Click Me"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="246dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="ToggleScreen>"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <Button
+        android:id="@+id/editText"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="editText>"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:id="@+id/progressBarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:text="ProgressBar"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <Button
+        android:id="@+id/seekButton"
+        android:layout_width="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginTop="11dp"
+        android:text="seekBar" />
+
+    <Button
+        android:id="@+id/sac4java"
+        android:background="@android:color/holo_green_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekButton"
+        android:layout_alignStart="@+id/seekButton"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="21dp"
+        android:text="sac4java"/>
+
+    <Button
+        android:id="@+id/basicactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sac4java"
+        android:layout_alignStart="@+id/sac4java"
+        android:layout_below="@+id/sac4java"
+        android:layout_marginTop="26dp"
+        android:text="basicActivity" />
+
+    <Button
+        android:id="@+id/navigationact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/basicactivity"
+        android:layout_alignStart="@+id/basicactivity"
+        android:layout_below="@+id/basicactivity"
+        android:layout_marginTop="15dp"
+        android:text="Navigation Act" />
+
+    <Button
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sac4java"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/navigationact"
+        android:layout_toRightOf="@+id/navigationact"
+        android:text="Timer" />
+
+
+</RelativeLayout>
